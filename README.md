@@ -1,11 +1,8 @@
 # personal-portfolio
 
-Hello! 
-
-This is my personal portolio website. 
-
-I will be using it to display all of my projects as well as my resume.
-
+Hello! <br>
+This is my personal portolio website. <br>
+I will be using it to display all of my projects as well as my resume.<br>
 Hosted at <lukegrippa.com>
 
 # Tech Used:
