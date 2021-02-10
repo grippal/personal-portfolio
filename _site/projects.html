@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang=" en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Projects - Luke Grippa</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" href="/assets/images/gummy-floppy.png">
+  <link rel="apple-touch-icon" href="/assets/images/gummy-floppy.png"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300;400;500;700&display=swap');
+  </style>
+</head>
+
+<body class="dark:bg-gray-900">
+  <nav class="bg-gray-50 dark:bg-gray-900 shadow-sm">
+    <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <div class="relative flex items-stretch justify-between h-20">
+            <div class="absolute inset-y-0 right-0 flex items-end sm:hidden">
+                <!-- Mobile menu button-->
+                <button class="toggle-button inline-flex items-center justify-center mb-3 p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <!-- Icon when menu is closed. -->
+                    <!--
+                            Heroicon name: menu
+                            Menu open: "hidden", Menu closed: "block"
+                    -->
+                    <svg class="menu-open block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <!-- Icon when menu is open. -->
+                    <!--
+                            Heroicon name: x
+                            Menu open: "block", Menu closed: "hidden"
+                    -->
+                    <svg class="menu-close hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex-1 flex items-end mb-1 sm:mb-0 justify-between sm:items-stretch sm:justify-between">
+                <div class="flex-shrink-0 flex items-end text-gray-900 dark:text-gray-50">
+                    <a href="/index.html" class="flex items-center justify-start">
+                        <!-- <svg class="w-12 h-12 pb-2 pr-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg> -->
+                        <img class="w-12 h-12 pb-2 pr-2" src="/assets/images/gummy-floppy.svg" alt="floppy disk">
+                        <h1 class="text-3xl font-semibold pb-3 pl-2">Luke Grippa</h1>
+                    </a>
+
+                </div>
+                <div class="desktop-menu hidden sm:flex sm:ml-6">
+                    <div class="flex items-center sm:items-end h-full md:mr-4">
+                        
+                        <a href="/projects.html"   class="flex border-b-4 border-blue-600 text-blue-600 px-3 md:px-5 pb-3 text-xl font-medium"  >
+
+                            Projects
+
+                        </a> 
+                        <a href="/resume.html"   class="flex border-b-4 border-gray-50 dark:border-gray-900 text-gray-700 dark:text-gray-50 hover:text-yellow-400 px-3 md:px-5 pb-3 text-xl font-medium"
+                             >
+
+                            Resume
+
+                        </a> 
+                        <a href="/blog.lukegrippa.com"   class="flex border-b-4 border-gray-50 dark:border-gray-900 text-gray-700 dark:text-gray-50  hover:text-red-500 px-3 md:px-5 pb-3 text-xl font-medium"
+                             >
+
+                            Cyber Blog
+
+                        </a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--
+            Mobile menu, toggle classes based on menu state.
+            Menu open: "block", Menu closed: "hidden"
+    -->
+    <div class="mobile-menu hidden sm:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1 items-center">
+            
+            <a href="/projects.html"  class="block bg-gray-900 text-white px-3 py-2 rounded-md text-lg font-medium" >
+
+                Projects
+            </a> 
+            <a href="/resume.html"  class="block text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                >
+
+                Resume
+            </a> 
+            <a href="/blog.lukegrippa.com"  class="block text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-lg font-medium"
+                >
+
+                Cyber Blog
+            </a> 
+        </div>
+
+    </div>
+</nav>
+
+<script src="/assets/js/menu.js"></script>
+
+  <main class="max-w-7xl mx-auto px-6 lg:px-8 py-24">
+    <section class="">
+    <div class="flex items-center dark:text-gray-200 border-b-4 border-blue-600 mb-12 pb-3">
+        <svg class="w-10 h-10 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+        </svg>
+        <h1 class="font-roboto font-medium text-3xl sm:text-4xl">Projects</h1>
+    </div>
+</section>
+
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/space-invaders">space-invaders</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-green-500
+                            
+                        ">
+                            JavaScript
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-blue-500
+                            
+                        ">
+                            HTML
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-yellow-500
+                            
+                        ">
+                            CSS
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-purple-300
+                            
+                        ">
+                            SCSS
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-red-400
+                            
+                        ">
+                            Firebase
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> Developed a two-player Space Invaders clone. Player 1 uses the arrow keys to move and spacebar to shoot. Player 2 uses WASD to move and shift to shoot. The games is currently hosted using Firebase at space-invaders.lukegrippa.com. Go check it out and see if you can beat the highscore!</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/space-invaders">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/garden-design">garden-design</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-yellow-600
+                            
+                        ">
+                            Java
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-purple-500
+                            
+                        ">
+                            JavaFX
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-green-700
+                            
+                        ">
+                            MVC
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> Clone of my team's final project for one of my software engineering courses. We developed a piece of software using MVC and JavaFX that allowed customers to model their backyard and design their own garden before planting any plants.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/garden-design">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/personal-portfolio">personal-portfolio</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-blue-500
+                            
+                        ">
+                            HTML
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-indigo-600
+                            
+                        ">
+                            Tailwind CSS
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-green-500
+                            
+                        ">
+                            JavaScript
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-pink-700
+                            
+                        ">
+                            Jekyll
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-gray-400
+                            
+                        ">
+                            Liquid
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> This is the source code for the website you are currently on! I used Jekyll to help me build this website as well as Tailwind CSS to really increase my efficiency designing it.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/personal-portfolio">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/cyber-blog">cyber-blog</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-blue-500
+                            
+                        ">
+                            HTML
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-indigo-600
+                            
+                        ">
+                            Tailwind CSS
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-green-500
+                            
+                        ">
+                            JavaScript
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-pink-700
+                            
+                        ">
+                            Jekyll
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-gray-400
+                            
+                        ">
+                            Liquid
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> This is the source code for my cybersecurity blog.  I figured the best way to learn cybersecurity is to write about it! So here you can find write-ups for CTF challenges, articles about certain topics and even quick notes about different things that I want to remember. Click the Cyber Blog item on the navigation menu to go and check it out.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/cyber-blog">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/shop-fresh-seafood-v3.0">shop-fresh-seafood-v3.0</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-blue-500
+                            
+                        ">
+                            HTML
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-yellow-500
+                            
+                        ">
+                            CSS
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-purple-700
+                            
+                        ">
+                            PHP
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-green-500
+                            
+                        ">
+                            JavaScript
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> This is a website I built for my parents side business. This project allowed me to get a much better understanding for PHP as well as caused me to start exploring MVC.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/shop-fresh-seafood-v3.0">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/signals-and-systems-analysis-1">signals-and-systems-analysis-1</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-yellow-300
+                            
+                        ">
+                            Python
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-green-300
+                            
+                        ">
+                            Matplotlib
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-blue-700
+                            
+                        ">
+                            NumPy
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-pink-300
+                            
+                        ">
+                            SciPy
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> This is the Jupyter Notebook I used to analyze signals and systems for one of my electrical engineering courses. I utilized my Python knowledge as well as became familiar with Matplotlib, NumPy, and SciPy to complete this assignment.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/signals-and-systems-analysis-1">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/signals-and-systems-analysis-2">signals-and-systems-analysis-2</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-yellow-300
+                            
+                        ">
+                            Python
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-green-300
+                            
+                        ">
+                            Matplotlib
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-blue-700
+                            
+                        ">
+                            NumPy
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-pink-300
+                            
+                        ">
+                            SciPy
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> This is another Jupyter Notebook I used to analyze signals and systems for one of my electrical engineering courses. I utilized my Python knowledge as well as became familiar with Matplotlib, NumPy, and SciPy to complete this assignment.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/signals-and-systems-analysis-2">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/autonomous-sanitizing-robot">autonomous-sanitizing-robot</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-pink-500
+                            
+                        ">
+                            C++
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> This is the source code for my Senior Design project that is currently underway. The goal of this project is to build a fully-autonomous robot that can sanitize countertop surfaces to prevent the spread of COVID-19. This repo will be continously updated as I finish my studies over the next couple of months.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/autonomous-sanitizing-robot">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="https://github.com/grippal/supreme-checkout-bot">supreme-checkout-bot</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-yellow-600
+                            
+                        ">
+                            Java
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-blue-300
+                            
+                        ">
+                            Selenium
+                        </span>
+                
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                             bg-red-600
+                            
+                        ">
+                            JUnit
+                        </span>
+                
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> After becoming proficient in Selenium during my internship, I attempted to build a bot that could buy clothing from Supreme to obtain the goods before they sold out. I got the bot to work correctly, however, the anti-bot mechanism's in place such as reCAPTCHA brought my progress to a halt.</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="https://github.com/grippal/supreme-checkout-bot">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  </main>
+</body>
+
+</html>

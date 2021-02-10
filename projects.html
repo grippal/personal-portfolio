@@ -1,0 +1,59 @@
+--- 
+layout: default 
+title: Projects 
+---
+
+
+<section class="">
+    <div class="flex items-center dark:text-gray-200 border-b-4 border-blue-600 mb-12 pb-3">
+        <svg class="w-10 h-10 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
+        </svg>
+        <h1 class="font-roboto font-medium text-3xl sm:text-4xl">Projects</h1>
+    </div>
+</section>
+
+{% for project in site.data.projects %}
+    <section class="my-16 py-8">
+        <div class="text-gray-700 dark:text-gray-300">
+            <h2 class="font-medium text-2xl sm:text-3xl border-b-4 border-gray-200 dark:border-gray-700 mb-4 pb-3">
+                <a href="{{ project.link | relative_url}}">{{ project.name }}</a>
+            </h2>
+            <div class="flex flex-row flex-wrap">
+                {% for item in project.tech %}
+                        <span class="text-white text-center align-middle rounded-md font-bold mx-1 my-1 px-2
+                            {% if item=="JavaScript" %} bg-green-500
+                            {% elsif item=="HTML" %} bg-blue-500
+                            {% elsif item=="CSS" %} bg-yellow-500
+                            {% elsif item=="SCSS" %} bg-purple-300
+                            {% elsif item=="Tailwind CSS" %} bg-indigo-600
+                            {% elsif item=="Jekyll" %} bg-pink-700
+                            {% elsif item=="Liquid" %} bg-gray-400
+                            {% elsif item=="Firebase" %} bg-red-400
+                            {% elsif item=="Java" %} bg-yellow-600
+                            {% elsif item=="JavaFX" %} bg-purple-500
+                            {% elsif item=="Selenium" %} bg-blue-300
+                            {% elsif item=="PHP" %} bg-purple-700
+                            {% elsif item=="Python" %} bg-yellow-300
+                            {% elsif item=="Matplotlib" %} bg-green-300
+                            {% elsif item=="NumPy" %} bg-blue-700
+                            {% elsif item=="SciPy" %} bg-pink-300
+                            {% elsif item=="C++" %} bg-pink-500
+                            {% elsif item=="JUnit" %} bg-red-600
+                            {% elsif item=="MVC" %} bg-green-700
+                            {% endif %}
+                        ">
+                            {{ item }}
+                        </span>
+                {% endfor %}
+            </div>           
+            <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> {{project.description}}</p>
+            <div class="flex justify-start items-center">
+                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
+                    <a href="{{ project.link | relative_url}}">Checkout the repository!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endfor %}
+

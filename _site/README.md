@@ -1,2 +1,1 @@
-# cyber-blog
 # personal-portfolio

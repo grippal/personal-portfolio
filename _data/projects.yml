@@ -1,0 +1,70 @@
+- name: space-invaders
+  link: https://github.com/grippal/space-invaders
+  tech:
+    - JavaScript
+    - HTML
+    - CSS
+    - SCSS
+    - Firebase
+  description: Developed a two-player Space Invaders clone. Player 1 uses the arrow keys to move and spacebar to shoot. Player 2 uses WASD to move and shift to shoot. The games is currently hosted using Firebase at space-invaders.lukegrippa.com. Go check it out and see if you can beat the highscore!
+- name: garden-design
+  link: https://github.com/grippal/garden-design
+  tech: 
+    - Java
+    - JavaFX
+    - MVC
+  description: Clone of my team's final project for one of my software engineering courses. We developed a piece of software using MVC and JavaFX that allowed customers to model their backyard and design their own garden before planting any plants.
+- name: personal-portfolio
+  link: https://github.com/grippal/personal-portfolio
+  tech: 
+    - HTML
+    - Tailwind CSS
+    - JavaScript
+    - Jekyll
+    - Liquid
+  description: This is the source code for the website you are currently on! I used Jekyll to help me build this website as well as Tailwind CSS to really increase my efficiency designing it.
+- name: cyber-blog
+  link: https://github.com/grippal/cyber-blog
+  tech: 
+    - HTML
+    - Tailwind CSS
+    - JavaScript
+    - Jekyll
+    - Liquid
+  description: This is the source code for my cybersecurity blog.  I figured the best way to learn cybersecurity is to write about it! So here you can find write-ups for CTF challenges, articles about certain topics and even quick notes about different things that I want to remember. Click the Cyber Blog item on the navigation menu to go and check it out.
+- name: shop-fresh-seafood-v3.0
+  link: https://github.com/grippal/shop-fresh-seafood-v3.0
+  tech: 
+    - HTML
+    - CSS
+    - PHP
+    - JavaScript
+  description: This is a website I built for my parents side business. This project allowed me to get a much better understanding for PHP as well as caused me to start exploring MVC. 
+- name: signals-and-systems-analysis-1
+  link: https://github.com/grippal/signals-and-systems-analysis-1
+  tech: 
+    - Python
+    - Matplotlib
+    - NumPy
+    - SciPy
+  description: This is the Jupyter Notebook I used to analyze signals and systems for one of my electrical engineering courses. I utilized my Python knowledge as well as became familiar with Matplotlib, NumPy, and SciPy to complete this assignment.
+- name: signals-and-systems-analysis-2
+  link: https://github.com/grippal/signals-and-systems-analysis-2
+  tech: 
+    - Python
+    - Matplotlib
+    - NumPy
+    - SciPy
+  description: This is another Jupyter Notebook I used to analyze signals and systems for one of my electrical engineering courses. I utilized my Python knowledge as well as became familiar with Matplotlib, NumPy, and SciPy to complete this assignment.
+- name: autonomous-sanitizing-robot
+  link: https://github.com/grippal/autonomous-sanitizing-robot
+  tech: 
+    - C++
+  description: This is the source code for my Senior Design project that is currently underway. The goal of this project is to build a fully-autonomous robot that can sanitize countertop surfaces to prevent the spread of COVID-19. This repo will be continously updated as I finish my studies over the next couple of months.
+- name: supreme-checkout-bot
+  link: https://github.com/grippal/supreme-checkout-bot
+  tech: 
+    - Java
+    - Selenium
+    - JUnit
+  description: After becoming proficient in Selenium during my internship, I attempted to build a bot that could buy clothing from Supreme to obtain the goods before they sold out. I got the bot to work correctly, however, the anti-bot mechanism's in place such as reCAPTCHA brought my progress to a halt.

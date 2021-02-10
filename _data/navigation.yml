@@ -1,8 +1,6 @@
 - name: Projects
-  link: /crypto.html
+  link: /projects.html
 - name: Resume
-  link: /web.html
+  link: /resume.html
 - name: Cyber Blog
-  link: /writeups.html
-
-
+  link: blog.lukegrippa.com
