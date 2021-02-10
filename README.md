@@ -3,7 +3,7 @@
 Hello! <br>
 This is my personal portolio website. <br>
 I will be using it to display all of my projects as well as my resume.<br>
-Hosted at <lukegrippa.com>
+Hosted at [lukegrippa.com](lukegrippa.com)
 
 # Tech Used:
 
@@ -17,4 +17,4 @@ Hosted at <lukegrippa.com>
 # Contact:
 
 
-Feel free to email me at <LukeGrippa5@gmail.com> with any questions.
+Feel free to email me at LukeGrippa5@gmail.com with any questions.
