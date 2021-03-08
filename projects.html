@@ -4,7 +4,7 @@ title: Projects
 ---
 
 
-<section class="">
+<section class="mt-16">
     <div class="flex items-center dark:text-gray-200 border-b-4 border-blue-600 mb-12 pb-3">
         <svg class="w-10 h-10 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -39,6 +39,7 @@ title: Projects
                             {% elsif item=="NumPy" %} bg-blue-700
                             {% elsif item=="SciPy" %} bg-pink-300
                             {% elsif item=="C++" %} bg-pink-500
+                            {% elsif item=="C" %} bg-orange-500
                             {% elsif item=="JUnit" %} bg-red-600
                             {% elsif item=="MVC" %} bg-green-700
                             {% endif %}
@@ -49,9 +50,12 @@ title: Projects
             </div>           
             <p class="font-normal text-xl sm:text-2xl mt-8 ml-4 mb-4 pt-2 pb-1 pl-6 border-l-8 border-gray-300"> {{project.description}}</p>
             <div class="flex justify-start items-center">
-                <div class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-white hover:text-gray-700">
-                    <a href="{{ project.link | relative_url}}">Checkout the repository!</a>
-                </div>
+                <a class="text-white text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-blue-600 bg-blue-600 hover:bg-blue-400" href="{{ project.link | relative_url}}">Check out the repository!</a>
+                {% if project.name == "space-invaders" %}
+                <a class="text-gray-700 text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-green-500 bg-white hover:bg-gray-200" href="https://space-invaders.lukegrippa.com">Play the game!</a>
+                {% elsif project.name == "shop-fresh-seafood-v3.0" %}
+                <a class="text-gray-700 text-center align-middle rounded-full font-bold mt-8 ml-4 px-4 py-2 border-4 border-green-500 bg-white hover:bg-gray-200" href="https://shop-fresh.lukegrippa.com">Check out the site!</a>
+                {% endif %}
             </div>
         </div>
     </section>
