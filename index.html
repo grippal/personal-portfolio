@@ -9,7 +9,7 @@ title: Home
             <img class="mb-6 mr-6 rounded-full w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 object-cover border-gray-200 border-4" src="{{ "assets/images/headshot.jpg" | relative_url }}" alt="">
             <div>
                 <h3 class="text-xl text-gray-800 underline">Luke Grippa</h3>
-                <p class="mt-2 text-gray-600">computer engineering student @ University of Delaware | UD CTF Team | traveler | foodie </p>
+                <p class="mt-2 max-w-2xl text-gray-600">computer engineering student @ University of Delaware | UD CTF Team | volunteer @ UD Innovation Health and Design Lab | traveler | foodie </p>
             </div>
         </div>
         <ul class="flex flex-row flex-wrap md:flex-col mt-5">
@@ -23,7 +23,7 @@ title: Home
             <li class="pl-4 md:pl-0 pt-3"><a class="flex flex-row items-center" href="https://github.com/grippal"><img class="w-5 h-5 mr-2" src="{{ "assets/images/github.png" | relative_url }}" alt="">Github</a></li>
             <li class="pl-4 md:pl-0 pt-3"><a class="flex flex-row items-center" href="https://www.linkedin.com/in/luke-grippa-603026134/"><img class="w-5 h-5 mr-2" src="{{ "assets/images/linkedin.png" | relative_url }}" alt="">LinkedIn</a></li>
             <li class="pl-4 md:pl-0 pt-3"><a class="flex flex-row items-center" href="https://twitter.com/luke_grippa"><img class="w-5 h-5 mr-2" src="{{ "assets/images/twitter.png" | relative_url }}" alt="">Twitter</a></li>
-            <li class="pl-4 md:pl-0 pt-3"><a class="flex flex-row items-center" href="mailto: lucagrip@yahoo.com">
+            <li class="pl-4 md:pl-0 pt-3"><a class="flex flex-row items-center" href="mailto: me@lukegrippa.com">
                 <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
@@ -49,7 +49,7 @@ title: Home
             
             <section class="border-gray-300 border-4 rounded-md mt-16">
                 <p class="font-medium text-gray-700 dark:text-gray-300 bg-gray-300 pl-4 py-1"> Skills</p>
-                <ul class="pl-4 py-4 grid grid-cols-3 list-disc font-normal text-gray-700 dark:text-gray-100">
+                <ul class="sm:pl-4 py-4 grid grid-cols-3 list-disc font-normal text-gray-700 dark:text-gray-100">
                     {% for skill in site.data.skills %}
                     <li class="mx-10 py-1">{{ skill }}</li>
                     {% endfor %}
